@@ -1,7 +1,7 @@
 from brownie import network, config, accounts, MockV3Aggregator
 from web3 import Web3
 
-FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork-dev2", "mainnet-fork"]
+FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork-dev", "mainnet-fork"]
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["development", "ganache-local"]
 
 DECIMALS = 8
